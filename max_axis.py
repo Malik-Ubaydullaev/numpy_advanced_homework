@@ -11,7 +11,10 @@ def sum_axis_1(arr: np.ndarray) -> int:
        
     return arr.min(axis=0)
 
-#arr = np.arange(10)
+#arr = np.array([[ 1,  2,  3],
+#       [ 4,  5,  6],
+#       [ 7,  8,  9],
+#       [10, 11, 0]])
 #print(arr)
-#minimumi = min_all(arr)
-#print(minimumi)
+#maxi = sum_axis_1(arr)
+#print(maxi)
