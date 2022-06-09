@@ -9,7 +9,7 @@ def sum_axis_1(arr: np.ndarray) -> int:
         np.ndarray: sum of each row
     """
     
-    return arr.sum(axis=0)
+    return arr.sum(axis=1)
 
 #arr = np.array([[ 1,  2,  3],
 #       [ 4,  5,  6],
