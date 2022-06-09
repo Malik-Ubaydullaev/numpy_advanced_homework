@@ -8,3 +8,10 @@ def sum_axis_1(arr: np.ndarray) -> int:
     Returns:
         np.ndarray: max of each row
     """
+       
+    return arr.min(axis=0)
+
+#arr = np.arange(10)
+#print(arr)
+#minimumi = min_all(arr)
+#print(minimumi)
