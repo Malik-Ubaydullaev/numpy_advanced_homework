@@ -8,13 +8,14 @@ def max_all(arr: np.ndarray) -> int:
     Returns:
         int: max of all numbers
     """
-    maximum = arr[0]
-    for i in range(10):
-        
-        if arr[i] > arr[0]:
-            maximum = arr[i]
+    row, col = arr.shape
     
-    return maximum
+    maxi = arr[0,0]
+    for i in range(row):
+        for j in range(col):
+            if arr[i,j] > maxi:
+                maxi = arr[i,j]    
+    return maxi
     
 
 #arr = np.arange(10)
